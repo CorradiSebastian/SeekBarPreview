@@ -19,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        AssetManager am = this.getAssets();
-
         seekBarPreviewSDCard = findViewById(R.id.seekBarPreviewSDCard);
 
         String path = "android.resource://" + getPackageName() + "/" + R.raw.bunny;
